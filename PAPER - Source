@@ -1,0 +1,21 @@
+UnArchive Pic1
+UnArchive Pic2
+UnArchive Pic3
+ClrDraw
+GridOff
+AxesOff
+RecallPic Pic1
+Pause 
+ClrDraw
+RecallPic Pic2
+Pause 
+ClrDraw
+RecallPic Pic3
+Pause 
+ClrDraw
+ClrHome
+Archive Pic1
+Archive Pic2
+Archive Pic3
+Stop
+End
