@@ -1,0 +1,86 @@
+2->Y
+1->N
+Goto 2
+Lbl 1
+Disp "REPEAT? [Y/N]"
+Input X
+If X=Y
+Then
+	Goto 2
+End
+If X!=Y
+Then
+	If X=N
+	Then
+		Stop
+	End
+	If X!=N
+	Then
+		Goto 1
+	End
+End
+Lbl 2
+ClrHome
+Pause "SONNET 29"
+Disp "BY WILLIAM"
+Pause "SHAKESPEARE"
+ClrHome
+Disp "WHEN IN DISGRACE"
+Disp "WITH FORTUNE AND"
+Disp "MEN'S EYES,"
+Disp ""
+Disp "I ALL ALONE"
+Disp "BEWEEP MY"
+Pause "OUTCAST STATE,"
+ClrHome
+Disp "AND TROUBLE DEAF"
+Disp "HEAVEN WITH MY"
+Disp "BOOTLESS CRIES,"
+Disp ""
+Disp "AND LOOK UPON"
+Disp "MYSELF AND CURSE"
+Pause "MY FATE,"
+ClrHome
+Disp "WISHING ME LIKE"
+Disp "TO ONE MORE RICH"
+Disp "IN HOPE,"
+Disp "FEATURED LIKE"
+Disp "HIM LIKE HIM"
+Disp "WITH FREINDS"
+Pause "POSSESSED"
+ClrHome
+Disp "DESIRING THIS"
+Disp "MAN'S ART AND"
+Disp "THAT MAN'S SCOPE"
+Disp ""
+Disp "WITH WHAT I MOST"
+Disp "ENJOY CONTESTED"
+Pause "LEAST:"
+ClrHome
+Disp "YET IN THESE"
+Disp "THOUGHTS MYSELF"
+Disp "ALMOST DEPISING,"
+Disp ""
+Disp "HAPLY I THINK ON"
+Disp "THEE AND THEN MY"
+Pause "STATE,"
+ClrHome
+Disp "(LIKE TO THE"
+Disp "LARK AT BREAK OF"
+Disp "DAY ARISING"
+Disp "FROM SULLEN"
+Disp "EARTH) SINGS"
+Disp "HYMNS AT"
+Pause "HEAVEN'S GATE:"
+ClrHome
+Disp "FOR THY SWEET"
+Disp "LOVE REMEMBERED"
+Disp "SUCH WEALTH"
+Pause "BRINGS"
+ClrHome
+Disp "THAT THEN I"
+Disp "SCORN TO CHANGE"
+Disp "MY STATE WITH"
+Pause "KINGS."
+ClrHome
+Goto 1
